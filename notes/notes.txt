@@ -1,0 +1,10 @@
+fonts :
+	- poppins
+	- open sans
+
+color : 
+	primary : #FFC000
+	secondary : #1B1B1B
+	ash : #F5F5F5
+	white : #ffffff
+	icon : #FCAB00

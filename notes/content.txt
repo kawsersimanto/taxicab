@@ -1,0 +1,35 @@
+content :
+slider : 
+	sub : 24/7 online taxi booking service
+	title : get best online taxi for your ride
+	paragraph : 12 words
+features :
+	- 100% safe
+	- quick ride
+	- fast pickups
+	- lots of locations
+about :
+	sub : about our company
+	title : most trusted taxicab service in nyc
+	paragraph : 22-24 words
+	icon + text : easy & emergency solutions anytime
+	getting affordable price upto 2 years
+	more reliable & experienced teams
+service
+	title : our services
+	- adress pickup
+	- city transport
+	- baggage transport
+	- online booking
+	- paragraph 22-24 words
+
+happy clients
+	- number of taxis
+	- completed trips
+	- people dropped
+	- satisfied clients
+book now :
+	sub : ABOUT OUR COMPANY
+	title : Our Easy Booking Form
+	To Get Best Vehicle
+	icon text : Call for book an order: +256 315 3215

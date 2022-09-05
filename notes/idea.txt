@@ -1,0 +1,56 @@
+header - sticky
+
+slider - text (get onliner best taxi for your ride) (learn more + search vehicle) + image (background with overlay)
+
+features
+	- 100% safe
+	- quick ride
+	- fast pickups
+	- lots of locations
+	(screenshot)
+
+about us 
+	- image 
+	- text (sub title, title, paragraph with icon features, button(learn more))
+
+service
+	- adress pickup
+	- city transport
+	- baggage transport
+	- online booking
+	(card with icon, title, info, style : shadow, background color)
+
+happy clients
+	- number of taxis
+	- completed trips
+	- people dropped
+	- satisfied clients
+book now
+	(screenshot)
+	- text (sub, title, para, icon + contact)
+	- form (number, loaction, date, time, vehicle, passenger no, book now , background)
+
+
+Plans
+	- standard
+		- initial charge : 4.80
+		- dist. allowance : 1000m
+		- up to 15kms : 1.20/km
+		- free booking : 0.60/min
+		- extra passengers : 2.60/km
+	- premium
+	- additional
+reviews
+	- slider
+
+contact form
+	- faq ( why us?)
+		- rapid city transfer
+		- safety
+		- pro cleared drivers
+	- form
+footer 
+	- logo branding socials
+	- quick links
+	- Service ours
+	- newsletter
