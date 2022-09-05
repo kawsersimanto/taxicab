@@ -1,6 +1,6 @@
 fonts :
 	- poppins
-	- open sans
+	- open sans 
 
 color : 
 	primary : #FFC000

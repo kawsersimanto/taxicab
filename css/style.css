@@ -1,0 +1,136 @@
+/* global styles  */
+body{
+  /* colors  */
+  --primary-color: #FFC000;
+  --secondary-color: #1B1B1B;
+  --ash-color: #F5F5F5;
+  --white-color: #ffffff;
+  --transition: all .3s ease 0s;
+  /* font family */
+  --poppins: 'Poppins', sans-serif;
+  /* font weight  */
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+  /* font size  */
+  --title: 45px;
+  --sub-title: 30px;
+  --small-title: 18px;
+  --medium-title: 22px;
+  --button: 15px;
+  --paragraph: 16px;
+  /* extra style */
+  --transparent-border: 1px solid transparent;
+  --border: 1px solid var(var(--primary-color))
+}
+
+/* reboot  */
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--poppins);
+  font-weight: var(--bold);
+}
+
+a{
+  font-family: var(--poppins);
+  font-weight: var(--medium);
+  font-size: var(--button);
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: var(--transition);
+  border-bottom: 1px solid transparent;
+  text-transform: uppercase;
+}
+
+a:hover{
+  cursor: pointer;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+p{
+  font-family: var(--poppins);
+  font-weight: var(--regular);
+  font-size: var(--paragraph);
+}
+
+button{
+  padding: 8px 25px;
+  font-family: var(--poppins);
+  font-weight: var(--medium);
+  font-size: var(--button);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
+
+/* reboot  */
+
+/* title */
+
+
+.title{
+  font-size: var(--title);
+  text-transform: capitalize;
+}
+
+.sub_title{
+  font-size: var(--sub-title);
+  text-transform: uppercase;
+}
+
+.medium_title{
+  font-size: var(--medium-title);
+  font-weight: var(--medium);
+}
+
+.small_title{
+  font-size: var(--small-title);
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+/* title  */
+
+/* buttons  */
+
+.slider_button{
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.slider_button:hover{
+  border: 2px solid var(--white-color);
+  background-color: var(--white-color);
+}
+
+.primary_button{
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  transition: var(--transition);
+}
+.secondary_button{
+  color: var(--white-color);
+  background-color: transparent;
+  border: 2px solid var(--white-color);
+  transition: var(--transition);
+}
+
+.secondary_button:hover{
+  color: var(--secondary-color);
+  background-color: var(--white-color);
+  border: 2px solid var(--white-color);
+}
+
+.primary_button:hover{
+  color: var(--white-color);
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+
+/* buttons  */
+
+/* spacings  */
+
+/* spacings  */
