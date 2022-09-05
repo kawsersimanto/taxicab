@@ -36,10 +36,12 @@
     <!-- header  -->
     <header>
       <!-- navbar  -->
-      <nav class="navbar fixed-top navbar-expand-lg bg-white shadow">
+      <nav class="navbar py-4 fixed-top navbar-expand-lg bg-white shadow">
         <div class="container">
           <!-- logo -->
-          <a class="navbar-brand" href="#"><img src="img/taxi.png" alt="" /></a>
+          <a class="navbar-brand" href="#"
+            ><span class="black">TAXI</span><span class="yellow">CAB</span></a
+          >
           <!-- logo -->
           <button
             class="navbar-toggler"
@@ -53,7 +55,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu align-items-center">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -272,6 +274,45 @@
       </div>
     </section>
     <!-- feature  -->
+    <section class="about padding-bottom-80" id="about">
+      <div class="container">
+        <div class="row text-center">
+          <h4 class="medium_title my-5">about us</h4>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid w-100"
+              src="img/about/pexels-chucky-chiang-8050485.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content margin-left-30">
+              <h6 class="small_title">about our company</h6>
+              <h2 class="sub_title margin-top-bottom-20">
+                most trusted taxicab service in nyc
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                animi sed minus eius neque nihil eos odit fugiat? Libero dolores
+                velit inventore!
+              </p>
+              <ul class="more-info list-unstyled margin-top-20-bottom-30">
+                <li>
+                  <i class="fa-solid fa-circle-check"></i> Giving service for
+                  25+ years
+                </li>
+                <li><i class="fa-solid fa-circle-check"></i> Most trusted</li>
+                <li><i class="fa-solid fa-circle-check"></i> Quick response</li>
+                <li><i class="fa-solid fa-circle-check"></i> Ensures safety</li>
+              </ul>
+              <button class="primary_button">learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- js links  -->
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="plugins/slick-slider/js/slick.min.js"></script>
