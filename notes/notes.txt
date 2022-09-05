@@ -8,3 +8,13 @@ color :
 	ash : #F5F5F5
 	white : #ffffff
 	icon : #FCAB00
+
+h2 - title
+h3 - sub_title
+h4 - medium_title
+h6 - small_title
+
+buttons :
+slider_button
+primary_button
+secondary_button

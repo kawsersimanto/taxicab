@@ -33,3 +33,15 @@ book now :
 	title : Our Easy Booking Form
 	To Get Best Vehicle
 	icon text : Call for book an order: +256 315 3215
+
+
+<h6 class="small_title">24/7 online taxi booking service</h6>
+            <h2 class="title">get best online taxi for your ride</h2>
+            <p class="my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              praesentium doloremque quisquam suscipit deleniti sequi deserunt,
+              autem molestiae in veniam exercitationem rem maxime nulla tempore
+              aut laudantium perspiciatis eaque sunt?
+            </p>
+            <button class="slider_button">learn more</button>
+            <button class="secondary_button">learn more</button>

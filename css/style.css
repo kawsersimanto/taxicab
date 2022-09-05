@@ -3,6 +3,7 @@ body{
   /* colors  */
   --primary-color: #FFC000;
   --secondary-color: #1B1B1B;
+  --third-color: #FEFBF0;
   --ash-color: #F5F5F5;
   --white-color: #ffffff;
   --transition: all .3s ease 0s;
@@ -13,10 +14,12 @@ body{
   --medium: 500;
   --bold: 700;
   /* font size  */
-  --title: 45px;
-  --sub-title: 30px;
+  --title: 50px;
+  --sub-title: 35px;
+  --medium-title: 30px;
+  --semi-medium: 25px;
   --small-title: 18px;
-  --medium-title: 22px;
+  --footer: 14px;
   --button: 15px;
   --paragraph: 16px;
   /* extra style */
@@ -27,35 +30,34 @@ body{
 /* reboot  */
 
 h1, h2, h3, h4, h5, h6{
+  margin: 0;
   font-family: var(--poppins);
   font-weight: var(--bold);
 }
 
 a{
+  display: inline-block;
   font-family: var(--poppins);
   font-weight: var(--medium);
   font-size: var(--button);
-  color: var(--secondary-color);
+  color: var(--secondary-color) !important;
   text-decoration: none;
-  transition: var(--transition);
+  transition: var(--transition) !important;
   border-bottom: 1px solid transparent;
   text-transform: uppercase;
 }
 
-a:hover{
-  cursor: pointer;
-  color: var(--primary-color);
-  border-bottom: 1px solid var(--primary-color);
-}
-
 p{
+  margin: 0;
   font-family: var(--poppins);
   font-weight: var(--regular);
   font-size: var(--paragraph);
+  line-height: 28px;
 }
 
 button{
   padding: 8px 25px;
+  display: inline-block;
   font-family: var(--poppins);
   font-weight: var(--medium);
   font-size: var(--button);
@@ -84,6 +86,12 @@ button{
   font-weight: var(--medium);
 }
 
+.card_title{
+  font-size: var(--semi-medium);
+  font-weight: var(--regular);
+  text-transform: capitalize;
+}
+
 .small_title{
   font-size: var(--small-title);
   text-transform: capitalize;
@@ -95,9 +103,11 @@ button{
 /* buttons  */
 
 .slider_button{
+  margin-right: 20px;
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
   transition: var(--transition);
+  transform: skewX(-10deg);
 }
 
 .slider_button:hover{
@@ -109,18 +119,7 @@ button{
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
   transition: var(--transition);
-}
-.secondary_button{
-  color: var(--white-color);
-  background-color: transparent;
-  border: 2px solid var(--white-color);
-  transition: var(--transition);
-}
-
-.secondary_button:hover{
-  color: var(--secondary-color);
-  background-color: var(--white-color);
-  border: 2px solid var(--white-color);
+  transform: skewX(-10deg);
 }
 
 .primary_button:hover{
@@ -129,8 +128,130 @@ button{
   background-color: var(--secondary-color);
 }
 
+
+.secondary_button{
+  color: var(--white-color);
+  background-color: transparent;
+  border: 2px solid var(--white-color);
+  transition: var(--transition);
+  transform: skewX(-10deg);
+}
+
+.secondary_button:hover{
+  color: var(--secondary-color);
+  background-color: var(--white-color);
+  border: 2px solid var(--white-color);
+}
 /* buttons  */
 
 /* spacings  */
+.margin-top-20{
+  margin-top: 20px;
+}
+
+.margin-bottom-20{
+  margin-top: 20px;
+}
+
+.margin-top-20-bottom-30{
+  margin: 20px 0 30px 0;
+}
+
+.margin-top-30-bottom-20{
+  margin: 30px 0 20px 0;
+}
+
+.margin-top-bottom-20{
+  margin: 20px 0;
+}
+
+.padding-top-bottom-80{
+  padding: 80px 0;
+}
 
 /* spacings  */
+
+/* navbar  */
+
+.navbar-brand img{
+  width: 60px !important;
+}
+
+.menu li a{
+  margin: 0 10px;
+}
+.menu li a:hover{
+  margin: 0 10px;
+  cursor: pointer;
+  color: var(--primary-color) !important;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.menu li:last-child a{
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+.menu li:last-child a:hover{
+  color: var(--white-color) !important;
+}
+
+/* navbar  */
+
+/* banner  */
+.carousel-item{
+  height: 100vh !important;
+}
+
+.item1, .item2, .item3{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.item1{
+  background-image: url(../img/slider/slider-1.jpg);
+}
+.item2{
+  background-image: url(../img/slider/slider-2.jpg);
+}
+.item3{
+  background-image: url(../img/slider/slider-3.jpg);
+}
+
+.banner_content{
+  padding-right: 50%;
+}
+
+.banner_content{
+  color: var(--white-color);
+}
+
+/* banner  */
+
+/* feature  */
+
+.fa-car-on,
+.fa-truck-fast,
+.fa-person-walking-arrow-right,
+.fa-map-location-dot {
+  font-size: 50px !important;
+}
+
+.feature-inner{
+  padding: 40px;
+  transition: var(--transition);
+  border: var(--transparent-border);
+  background-color: var(--third-color);
+}
+
+.feature-inner:hover{
+  background-color: var(--white-color);
+  box-shadow: 0px 20px 40px rgb(0 0 0 / 10%);
+}
+
+.feature-inner p{
+  font-size: var(--footer);
+}
+
+/* feature  */
