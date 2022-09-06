@@ -310,10 +310,6 @@ button{
 
 /* about  */
 
-.about{
-
-}
-
 .more-info li{
   /* color: var(--primary-color); */
   font-size: var(--small-title);
@@ -334,3 +330,23 @@ button{
 }
 
 /* service */
+
+/* achievements  */
+
+.achievements{
+  background-image: url(../img/achivements/achievements.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.fa-car-rear{
+  font-size: 50px !important;
+}
+
+.counters{
+  color: var(--white-color);
+}
+
+/* achievements  */
