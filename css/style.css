@@ -6,6 +6,8 @@ body{
   --third-color: #FEFBF0;
   --ash-color: #F5F5F5;
   --white-color: #ffffff;
+  --footer-color: #161921;
+  --copyright-color: #1B1F29;
   --transition: all .3s ease 0s;
   /* font family */
   --poppins: 'Poppins', sans-serif;
@@ -436,3 +438,52 @@ input:focus{
 }
 
 /* contact  */
+
+/* footer */
+
+.footer_logo{
+  color: var(--primary-color);
+}
+
+footer{
+  background-color: var(--footer-color);
+}
+
+.socials li a i{
+  transition: var(--transition);
+}
+
+.socials li a i:hover{
+  color: var(--primary-color) !important;
+}
+
+.footer_menu li a {
+  transition: var(--transition);
+}
+
+.footer_menu li a:hover{
+  color: var(--primary-color) !important;
+}
+
+.newsletter_form{
+  background-color: transparent;
+}
+
+.newsletter_form:focus{
+  background-color: transparent;
+}
+
+.newsletter_btn{
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transform: none;
+}
+
+.newsletter_btn:hover{
+  background-color: var(--white-color);
+  border-color: var(--white-color);
+
+}
+
+/* footer */
