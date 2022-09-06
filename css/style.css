@@ -224,7 +224,7 @@ button{
 
 .navbar-brand {
   font-family: var(--montserrat);
-  font-size: var(--medium-title);
+  font-size: 25px;
   font-weight: var(--bold);
   letter-spacing: 1px;
 }
@@ -446,6 +446,7 @@ input:focus{
 }
 
 footer{
+  /* padding-bottom: 40px; */
   background-color: var(--footer-color);
 }
 
@@ -484,6 +485,11 @@ footer{
   background-color: var(--white-color);
   border-color: var(--white-color);
 
+}
+
+.copyright{
+  padding: 20px 0;
+  background-color: var(--copyright-color);
 }
 
 /* footer */
