@@ -17,7 +17,7 @@ body{
   /* font size  */
   --title: 50px;
   --sub-title: 40px;
-  --medium-title: 30px;
+  --medium-title: 45px;
   --semi-medium: 25px;
   --small-title: 18px;
   --footer: 14px;
@@ -159,6 +159,7 @@ button{
 /* buttons  */
 
 /* spacings  */
+
 .margin-top-20{
   margin-top: 20px;
 }
@@ -185,6 +186,10 @@ button{
 
 .margin-left-30 {
   margin-left: 30px;
+}
+
+.margin-top-bottom-30{
+  margin: 30px 0;
 }
 
 .padding-top-bottom-80{
@@ -334,8 +339,9 @@ button{
 /* achievements  */
 
 .achievements{
+  /* padding: 200px 0; */
   background-image: url(../img/achivements/achievements.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -350,3 +356,42 @@ button{
 }
 
 /* achievements  */
+
+/* book now  */
+
+.book_now{
+  background-image: url(../img/book-now/book-now.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.book-number li{
+  font-size: var(--small-title);
+}
+
+.fa-square-phone{
+  font-size: 60px;
+}
+
+.form-control,
+.form-select,
+.submit_button{
+  margin-top: 10px;
+}
+
+.form-control{
+  padding: 15px 20px;
+}
+
+.form-select {
+  padding: 15px 20px !important;
+}
+
+.submit_button{
+  padding: 15px 0;
+  transform: none;
+}
+
+/* book now  */

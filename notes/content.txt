@@ -17,10 +17,10 @@ about :
 	more reliable & experienced teams
 service
 	title : our services
-	- address pickup
-	- city transport
-	- baggage transport
-	- online booking
+	- address pickup <i class="fa-solid fa-location-dot"></i>
+	- city transport <i class="fa-solid fa-universal-access"></i>
+	- baggage transport <i class="fa-solid fa-people-carry-box"></i>
+	- online booking <i class="fa-solid fa-signal"></i>
 	- paragraph 22-24 words
 
 happy clients
