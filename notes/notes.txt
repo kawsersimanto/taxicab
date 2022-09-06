@@ -9,10 +9,10 @@ color :
 	white : #ffffff
 	icon : #FCAB00
 
-h2 - title
-h3 - sub_title
-h4 - medium_title
-h6 - small_title
+h2 - title - 50px
+h3 - sub_title - 30px
+h4 - medium_title - 22px
+h6 - small_title 18px
 
 buttons :
 slider_button

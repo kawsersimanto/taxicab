@@ -4,10 +4,10 @@ slider :
 	title : get best online taxi for your ride
 	paragraph : 12 words
 features :
-	- 100% safe
-	- quick ride
-	- fast pickups
-	- lots of locations
+	- 100% safe <i class="fa-solid fa-car-on"></i>
+	- quick ride <i class="fa-solid fa-truck-fast"></i>
+	- fast pickups <i class="fa-solid fa-person-walking-arrow-right"></i>
+	- lots of locations <i class="fa-solid fa-map-location-dot"></i>
 about :
 	sub : about our company
 	title : most trusted taxicab service in nyc
@@ -17,7 +17,7 @@ about :
 	more reliable & experienced teams
 service
 	title : our services
-	- adress pickup
+	- address pickup
 	- city transport
 	- baggage transport
 	- online booking
