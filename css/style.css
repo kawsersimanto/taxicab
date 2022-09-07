@@ -27,7 +27,7 @@ body{
   --paragraph: 16px;
   /* extra style */
   --transparent-border: 1px solid transparent;
-  --border: 1px solid var(var(--primary-color))
+  --border: 1px solid var(var(--primary-color));
 }
 
 /* reboot  */
