@@ -27,6 +27,7 @@
     <!-- font awesome links  -->
     <!-- css links  -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugins/aos/css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
     <!-- css links  -->
@@ -56,22 +57,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu align-items-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Feature</a>
+                <a class="nav-link" href="#feature">Feature</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
+                <a class="nav-link" href="#service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Reviews</a>
+                <a class="nav-link" href="#review">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link primary_button" href="#"> book now </a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary_button" href="#book-now">
+                  book now
+                </a>
               </li>
             </ul>
           </div>
@@ -80,147 +88,160 @@
     </header>
     <!-- header  -->
     <!-- slider  -->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide carousel-fade"
-      data-bs-ride="true"
-    >
-      <div class="carousel-indicators d-md-block d-none">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <!-- single  -->
-        <div
-          class="carousel-item item1 d-flex align-items-center active"
-          data-bs-interval="30000"
-        >
-          <div class="container">
-            <div class="row m-0">
-              <div class="col-12">
-                <div class="banner_content">
-                  <h6 class="small_title">24/7 online taxi booking service</h6>
-                  <h2 class="title margin-top-20">
-                    enjoy comfortable trip with your family
-                  </h2>
-                  <p class="margin-top-20-bottom-30">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Soluta praesentium doloremque quisquam suscipit deleniti
-                    sequi deserunt, autem molestiae in veniam exercitationem rem
-                    maxime nulla tempore aut laudantium perspiciatis eaque sunt?
-                  </p>
-                  <button class="slider_button">learn more</button>
-                  <button class="secondary_button">Book Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single  -->
-        <!-- single  -->
-        <div
-          class="carousel-item item3 d-flex align-items-center"
-          data-bs-interval="30000"
-        >
-          <div class="container">
-            <div class="row m-0">
-              <div class="col-12">
-                <div class="banner_content">
-                  <h6 class="small_title">24/7 online taxi booking service</h6>
-                  <h2 class="title margin-top-20">
-                    best automative online taxi service
-                  </h2>
-                  <p class="margin-top-20-bottom-30">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Soluta praesentium doloremque quisquam suscipit deleniti
-                    sequi deserunt, autem molestiae in veniam exercitationem rem
-                    maxime nulla tempore aut laudantium perspiciatis eaque sunt?
-                  </p>
-                  <button class="slider_button">learn more</button>
-                  <button class="secondary_button">Book Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single  -->
-        <!-- single  -->
-        <div
-          class="carousel-item item2 d-flex align-items-center"
-          data-bs-interval="30000"
-        >
-          <div class="container">
-            <div class="row m-0">
-              <div class="col-12">
-                <div class="banner_content">
-                  <h6 class="small_title">24/7 online taxi booking service</h6>
-                  <h2 class="title margin-top-20">
-                    get best online taxi for your ride
-                  </h2>
-                  <p class="margin-top-20-bottom-30">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Soluta praesentium doloremque quisquam suscipit deleniti
-                    sequi deserunt, autem molestiae in veniam exercitationem rem
-                    maxime nulla tempore aut laudantium perspiciatis eaque sunt?
-                  </p>
-                  <button class="slider_button">learn more</button>
-                  <button class="secondary_button">Book Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- single  -->
-      </div>
-      <button
-        class="carousel-control-prev d-md-block d-none"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
+    <section class="home" id="home">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-fade"
+        data-bs-ride="true"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next d-md-block d-none"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+        <div class="carousel-indicators d-md-block d-none">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- single  -->
+          <div
+            class="carousel-item item1 d-flex align-items-center active"
+            data-bs-interval="30000"
+          >
+            <div class="container">
+              <div class="row m-0">
+                <div class="col-12">
+                  <div class="banner_content">
+                    <h6 class="small_title">
+                      24/7 online taxi booking service
+                    </h6>
+                    <h2 class="title margin-top-20">
+                      enjoy comfortable trip with your family
+                    </h2>
+                    <p class="margin-top-20-bottom-30">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Soluta praesentium doloremque quisquam suscipit deleniti
+                      sequi deserunt, autem molestiae in veniam exercitationem
+                      rem maxime nulla tempore aut laudantium perspiciatis eaque
+                      sunt?
+                    </p>
+                    <button class="slider_button">learn more</button>
+                    <button class="secondary_button">Book Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single  -->
+          <!-- single  -->
+          <div
+            class="carousel-item item3 d-flex align-items-center"
+            data-bs-interval="30000"
+          >
+            <div class="container">
+              <div class="row m-0">
+                <div class="col-12">
+                  <div class="banner_content">
+                    <h6 class="small_title">
+                      24/7 online taxi booking service
+                    </h6>
+                    <h2 class="title margin-top-20">
+                      best automative online taxi service
+                    </h2>
+                    <p class="margin-top-20-bottom-30">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Soluta praesentium doloremque quisquam suscipit deleniti
+                      sequi deserunt, autem molestiae in veniam exercitationem
+                      rem maxime nulla tempore aut laudantium perspiciatis eaque
+                      sunt?
+                    </p>
+                    <button class="slider_button">learn more</button>
+                    <button class="secondary_button">Book Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single  -->
+          <!-- single  -->
+          <div
+            class="carousel-item item2 d-flex align-items-center"
+            data-bs-interval="30000"
+          >
+            <div class="container">
+              <div class="row m-0">
+                <div class="col-12">
+                  <div class="banner_content">
+                    <h6 class="small_title">
+                      24/7 online taxi booking service
+                    </h6>
+                    <h2 class="title margin-top-20">
+                      get best online taxi for your ride
+                    </h2>
+                    <p class="margin-top-20-bottom-30">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Soluta praesentium doloremque quisquam suscipit deleniti
+                      sequi deserunt, autem molestiae in veniam exercitationem
+                      rem maxime nulla tempore aut laudantium perspiciatis eaque
+                      sunt?
+                    </p>
+                    <button class="slider_button">learn more</button>
+                    <button class="secondary_button">Book Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single  -->
+        </div>
+        <button
+          class="carousel-control-prev d-md-block d-none"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next d-md-block d-none"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
     <!-- slider  -->
     <!-- feature  -->
     <section class="feature padding-top-80" id="feature">
       <div class="container">
         <div class="feature_content">
-          <h4 class="medium_title text-center">Our Feature</h4>
+          <h4 class="medium_title text-center" data-aos="fade-up">
+            Our Feature
+          </h4>
         </div>
         <!-- features  -->
         <div class="row gy-lg-0 gy-4 mt-lg-5 mt-md-3 mt-0">
           <!-- single feature  -->
           <div class="col-lg-3 col-sm-6">
-            <div class="feature-inner text-center">
+            <div class="feature-inner text-center" data-aos="fade-up">
               <i class="fa-solid fa-car-on"></i>
               <h4 class="card_title margin-top-30-bottom-20">100% safe</h4>
               <p>
@@ -232,7 +253,7 @@
           <!-- single feature  -->
           <!-- single feature  -->
           <div class="col-lg-3 col-sm-6">
-            <div class="feature-inner text-center">
+            <div class="feature-inner text-center" data-aos="fade-up">
               <i class="fa-solid fa-rocket"></i>
               <h4 class="card_title margin-top-30-bottom-20">quick ride</h4>
               <p>
@@ -244,7 +265,7 @@
           <!-- single feature  -->
           <!-- single feature  -->
           <div class="col-lg-3 col-sm-6">
-            <div class="feature-inner text-center">
+            <div class="feature-inner text-center" data-aos="fade-up">
               <i class="fa-solid fa-person-walking-arrow-right"></i>
               <h4 class="card_title margin-top-30-bottom-20">fast pickups</h4>
               <p>
@@ -256,7 +277,7 @@
           <!-- single feature  -->
           <!-- single feature  -->
           <div class="col-lg-3 col-sm-6">
-            <div class="feature-inner text-center">
+            <div class="feature-inner text-center" data-aos="fade-up">
               <i class="fa-solid fa-map-location-dot"></i>
               <h4 class="card_title margin-top-30-bottom-20">
                 lots of locations
@@ -277,7 +298,7 @@
     <section class="about padding-top-bottom-100" id="about">
       <div class="container">
         <div class="row text-center">
-          <h4 class="medium_title mb-5">about us</h4>
+          <h4 class="medium_title mb-5" data-aos="fade-up">about us</h4>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -285,10 +306,11 @@
               class="img-fluid w-100 mb-lg-0 mb-3"
               src="img/about/pexels-chucky-chiang-8050485.jpg"
               alt=""
+              data-aos="fade-right"
             />
           </div>
           <div class="col-lg-6">
-            <div class="about-content margin-left-30">
+            <div class="about-content margin-left-30" data-aos="fade-left">
               <h6 class="small_title">about our company</h6>
               <h2 class="sub_title margin-top-bottom-20">
                 most trusted taxicab service in nyc
@@ -319,12 +341,12 @@
     <section class="service padding-bottom-100" id="service">
       <div class="container">
         <div class="row text-center">
-          <h4 class="medium_title mb-5">Our Service</h4>
+          <h4 class="medium_title mb-5" data-aos="fade-up">Our Service</h4>
         </div>
         <div class="row gy-lg-0 gy-4">
           <!-- single service -->
           <div class="col-lg-3 col-sm-6">
-            <div class="single_card border">
+            <div class="single_card border" data-aos="fade-up">
               <div class="service_img">
                 <img
                   src="img/service/service-1.jpg"
@@ -347,7 +369,7 @@
           <!-- single service -->
           <!-- single service -->
           <div class="col-lg-3 col-sm-6">
-            <div class="single_card border">
+            <div class="single_card border" data-aos="fade-up">
               <div class="service_img">
                 <img
                   src="img/service/service-2.jpg"
@@ -370,7 +392,7 @@
           <!-- single service -->
           <!-- single service -->
           <div class="col-lg-3 col-sm-6">
-            <div class="single_card border">
+            <div class="single_card border" data-aos="fade-up">
               <div class="service_img">
                 <img
                   src="img/service/service-3.jpg"
@@ -393,7 +415,7 @@
           <!-- single service -->
           <!-- single service -->
           <div class="col-lg-3 col-sm-6">
-            <div class="single_card border">
+            <div class="single_card border" data-aos="fade-up">
               <div class="service_img">
                 <img
                   src="img/service/service-4.jpg"
@@ -470,12 +492,12 @@
     <section class="book_now padding-top-bottom-100" id="book-now">
       <div class="container">
         <div class="row text-center">
-          <h4 class="medium_title mb-5">book now</h4>
+          <h4 class="medium_title mb-5" data-aos="fade-up">book now</h4>
         </div>
         <div class="row align-items-center">
           <!-- content  -->
           <div class="col-lg-6">
-            <div class="about-content margin-left-30">
+            <div class="about-content margin-left-30" data-aos="fade-right">
               <h6 class="small_title">make your journey easier</h6>
               <h2 class="sub_title margin-top-bottom-20">
                 Our Easy Booking Form To Get Best Vehicle
@@ -501,7 +523,7 @@
           <!-- content  -->
           <!-- form  -->
           <div class="col-lg-6 book_column">
-            <form class="row gy-3">
+            <form class="row gy-3" data-aos="fade-left">
               <div class="col-md-6">
                 <input
                   type="tel"
@@ -554,13 +576,13 @@
     <!-- book section  -->
     <!-- reviews  -->
 
-    <section class="reviews padding-top-bottom-80">
+    <section class="reviews padding-top-bottom-80" id="review">
       <div class="container">
         <div class="row text-center">
-          <h4 class="medium_title mb-lg-5 mb-3">Reviews</h4>
+          <h4 class="medium_title mb-lg-5 mb-3" data-aos="fade-up">Reviews</h4>
         </div>
         <div class="row gy-lg-0 gy-4">
-          <div class="single_review col-lg-4 col-md-6">
+          <div class="single_review col-lg-4 col-md-6" data-aos="fade-right">
             <div class="review_content shadow p-4 text-center">
               <img
                 src="img/reviews/review-1.jpg"
@@ -575,7 +597,7 @@
               </p>
             </div>
           </div>
-          <div class="single_review col-lg-4 col-md-6">
+          <div class="single_review col-lg-4 col-md-6" data-aos="fade-up">
             <div class="review_content shadow p-4 text-center">
               <img
                 src="img/reviews/review-2.jpg"
@@ -590,7 +612,7 @@
               </p>
             </div>
           </div>
-          <div class="single_review col-lg-4">
+          <div class="single_review col-lg-4" data-aos="fade-left">
             <div class="review_content shadow p-4 text-center">
               <img
                 src="img/reviews/review-3.jpg"
@@ -614,11 +636,13 @@
     <section class="contact padding-top-bottom-100" id="contact">
       <div class="container">
         <div class="row text-center">
-          <h4 class="medium_title mb-lg-5 mb-4">Contact us</h4>
+          <h4 class="medium_title mb-lg-5 mb-4" data-aos="fade-up">
+            Contact us
+          </h4>
         </div>
         <div class="row gy-lg-0 gy-4">
           <div class="col-lg-6 order-lg-1 order-2">
-            <form class="row g-3">
+            <form class="row g-3" data-aos="fade-up">
               <div class="col-md-6">
                 <input
                   type="text"
@@ -645,12 +669,17 @@
                 ></textarea>
               </div>
               <div class="col-12">
-                <button type="submit" class="primary_button w-25">send</button>
+                <button
+                  type="submit"
+                  class="primary_button w-25 contact_button"
+                >
+                  send
+                </button>
               </div>
             </form>
           </div>
           <!-- faq  -->
-          <div class="col-lg-6 order-lg-2 order-1">
+          <div class="col-lg-6 order-lg-2 order-1" data-aos="fade-up">
             <h6 class="small_title margin-bottom-20">
               why should you choose us?
             </h6>
@@ -872,11 +901,12 @@
     </footer>
     <!-- footer  -->
     <!-- js links  -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="plugins/counterup/js/waypoints.min.js"></script>
     <script src="plugins/counterup/js/jquery.counterup.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="plugins/aos/js/aos.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
