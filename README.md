@@ -2,4 +2,4 @@
 a responsive online taxi service provider website built from scratch.
 
 # demo
-[demo](https://kawsersimanto.github.io/taxicab/)
+[click here](https://kawsersimanto.github.io/taxicab/)
