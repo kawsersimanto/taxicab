@@ -70,6 +70,20 @@
   .banner_content {
     padding-right: 0;
   }
+
+  .banner_content p{
+    line-height: 22px;
+  }
+
+  .slider_button{
+    margin: 0;
+    width: 100%;
+  }
+
+  .banner_content button:last-child{
+    width: 100%;
+    margin-top: 15px;
+  }
   /* banner  */
   /* feature  */
   .feature-inner {
