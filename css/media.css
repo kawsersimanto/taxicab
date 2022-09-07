@@ -70,20 +70,6 @@
   .banner_content {
     padding-right: 0;
   }
-
-  .banner_content p{
-    line-height: 22px;
-  }
-
-  .slider_button{
-    width: 100%;
-    margin: 0;
-  }
-
-  .banner_content button:last-child{
-    margin-top: 15px;
-    width: 100%;
-  }
   /* banner  */
   /* feature  */
   .feature-inner {
@@ -112,11 +98,6 @@
     font-size: 12px;
   }
   /* counter  */
-  /* contact  */
-  .contact_button{
-    width: 100% !important;
-  }
-  /* contact  */
 }
 
 /* Small devices*/
@@ -219,11 +200,6 @@
     font-size: 12px;
   }
   /* counter  */
-  /* contact  */
-  .contact_button{
-    width: 100% !important;
-  }
-  /* contact  */
 }
 
 /* Medium devices*/
@@ -330,4 +306,9 @@
   body{
     --title: 40px;
   }
+}
+
+/* Extra extra large devices*/
+@media (min-width: 1400px) { 
+
 }

@@ -318,6 +318,7 @@ button{
 /* about  */
 
 .more-info li{
+  /* color: var(--primary-color); */
   font-size: var(--small-title);
   font-weight: var(--medium);
 }
@@ -340,6 +341,7 @@ button{
 /* achievements  */
 
 .achievements{
+  /* padding: 200px 0; */
   background-image: url(../img/achivements/achievements.jpg);
   background-position: top;
   background-repeat: no-repeat;
@@ -444,6 +446,7 @@ input:focus{
 }
 
 footer{
+  /* padding-bottom: 40px; */
   background-color: var(--footer-color);
 }
 
